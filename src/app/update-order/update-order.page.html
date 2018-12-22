@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons (click)="homeEmployee()" slot="start" class="back-icon">
+          <ion-icon name="arrow-round-back"></ion-icon>
+      </ion-buttons>
+      <ion-title>Add Order</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <!-- <ion-item>
+      <ion-label position="floating">เลขพัสดุ</ion-label>
+      <ion-input></ion-input>
+    </ion-item> -->
+    <ion-item>
+      <ion-label position="floating">ID Order</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">status</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-button (click)="listOrder()"expand="block">Update</ion-button>
+    <!-- <ion-button (click)="homeemployee()"expand="block">cancel</ion-button> -->
+
+  </ion-content>

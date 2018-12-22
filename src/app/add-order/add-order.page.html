@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons (click)="homeEmployee()" slot="start" class="back-icon">
+          <ion-icon name="arrow-round-back"></ion-icon>
+      </ion-buttons>
+      <ion-title>Add Order</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <!-- <ion-item>
+      <ion-label position="floating">เลขพัสดุ</ion-label>
+      <ion-input></ion-input>
+    </ion-item> -->
+    <ion-item>
+      <ion-label position="floating">ข้อมูลผู้ส่งพัสดุ</ion-label>
+      <ion-input  [(ngModel)]="provider"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">ข้อมูลผู้รับพัสดุ</ion-label>
+      <ion-input  [(ngModel)]="ceiver"></ion-input>
+    </ion-item>
+    <ion-button (click)="listOrder()"expand="block">add</ion-button>
+    <!-- <ion-button (click)="homeEmployee()"expand="block">cancel</ion-button> -->
+
+  </ion-content>

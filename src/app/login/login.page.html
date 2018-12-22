@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons (click)="home()" slot="start" class="back-icon">
+          <ion-icon name="arrow-round-back"></ion-icon>
+      </ion-buttons>
+      <ion-title>Login</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <ion-item>
+      <ion-label position="floating">email</ion-label>
+      <ion-input type="email" [(ngModel)]="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">password</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+  
+    <ion-button color="primary" (click)="login()">Sign in</ion-button>
+    <!-- <ion-button color="primary" (click)="reg()">สมัคสมาชิก</ion-button> -->
+
+  </ion-content>
+  

@@ -1,1 +1,21 @@
 
+.image-cen{
+    text-align: center;
+    img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.button{
+    bottom: center;
+}
+
+// :host{
+//     ion-content{
+//         --background:linear-gradient(to button, #27D8E3, #92F1F7)
+//     }
+// }
+// .bg{
+//     background: linear-gradient(to button, #)
+// }
